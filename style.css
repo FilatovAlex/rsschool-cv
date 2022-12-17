@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    
+    font: 400 18px Verdana sans-serif;
+}
+
+header {
+    height: 227px;
+    background-color: rgba(30, 38, 50, 0.9);
+}
+
+footer {
+    height: 150px;
+    background-color: rgba(30, 38, 50, 0.9);
+}
+
+p {
+    word-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+code {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container {
+    width: 70%;
+    height: inherit;
+    margin: 0 auto;
+    
+}
+
+.flexible {
+    display: flex;
+}
+
+.sidebar{
+    width: 25%;
+    background-color: rgba(38, 38, 46, 0.3);
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.content {
+    width: 75%;
+    box-sizing: border-box;
+    padding: 10px 40px;
+}
+
+.photo {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(100, 100, 100, 0.3);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    background-color: rgba(100, 100, 100, 0.3);
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.info {
+    width: 75%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.info h1 {
+    font-size: 2.3em;
+    color: white;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.nav-list {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font: 300 18px/1.5em Verdana sans-serif;
+    color: white;
+}
+
+.nav-list a {
+    color: white;
+}
+
+.nav-list a:hover {
+    color: rgb(189, 185, 214);
+}
+
+.git-info {
+    padding: 10px 40px;
+}
+
+.git-info a {
+    color: white;
+}
+
+.git-info a:hover {
+    color: rgb(189, 185, 214);
+}
